@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8c837f87a6674fab99a0040e93312b3a" Name="Diagram1">
+        <EntityTypeShape EntityType="igroup193_prodModel.Appointment" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_prodModel.Appointment_can_give_treatment" Width="2.375" PointX="5.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_prodModel.Business" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_prodModel.Business_can_give_treatment" Width="1.5" PointX="8.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_prodModel.Business_Photos" Width="1.5" PointX="10.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_prodModel.BusinessDiary" Width="1.5" PointX="10.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_prodModel.Category" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_prodModel.Client" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_prodModel.Future_Appointment" Width="1.5" PointX="8.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_prodModel.Professional" Width="1.5" PointX="1.5" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_prodModel.Review_Business" Width="1.5" PointX="5.25" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_prodModel.Review_Client" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_prodModel.sysdiagrams" Width="1.5" PointX="10.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_prodModel.Treatment_of_category" Width="1.5" PointX="8.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_prodModel.Type_Treatment" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_prodModel.Canceled_Appointment" Width="2.75" PointX="10.75" PointY="10.375" IsExpanded="true" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Appointme__Numbe__7EC1CEDB" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Appointme__Numbe__7FB5F314" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Future_Ap__Numbe__74444068" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Review_Bu__Numbe__2022C2A6" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Review_Cl__Numbe__2116E6DF" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK_Business_BusinessNumber" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK_Client_ID_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.fk_delete_appointment" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Appointme__Type___7DCDAAA2" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Business__Profes__2AD55B43" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Business__Profes__2BC97F7C" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Business___Categ__0662F0A3" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Business___Type___056ECC6A" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Treatment__Categ__0B27A5C0" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Future_Ap__Clien__725BF7F6" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Future_Ap__Clien__753864A1" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Review_Cl__Clien__41B8C09B" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Future_Ap__Type___73501C2F" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Review_Cl__Profe__40C49C62" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_prodModel.FK__Treatment__Type___0A338187" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
